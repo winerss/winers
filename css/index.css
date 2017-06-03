@@ -17,7 +17,7 @@
 .navbar-default .navbar-nav>li>a:hover{
     color: #E87E04;
 }
-.navbar-default .navbar-nav>li>a:active,a:visited,a:link {
+.navbar-default .navbar-nav>li>a:visited {
     color: #FFFFFF;
 }
 .author-title .h2 {
