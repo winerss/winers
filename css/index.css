@@ -1,0 +1,41 @@
+.navbar {
+    background: #2c3e50;
+    border: none;
+    border-radius: 0;
+}
+.navbar-default .navbar-brand {
+    color: #f4f5f6;
+    display: block;
+    padding: 0 15px;
+}
+.navbar-default .navbar-brand:hover {
+    color: #FFFFFF;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #f4f5f6;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #E87E04;
+}
+.navbar-default .navbar-nav>li>a:active,a:visited,a:link {
+    color: #FFFFFF;
+}
+.author-title .h2 {
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+}
+.author-title .h2::after {
+    content: "";
+    position: absolute;
+}
+.introduce p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 20px;
+    color: #666;
+}
+.introduce .btn {
+    margin: 10px auto;
+    display: block;
+}
