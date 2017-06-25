@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/vue.css">
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -38,10 +39,24 @@
     </div>
 </nav>
 <div class="container">
-    <div class="list col-md-3 col-xs-12">
+    <div class="col-md-3 col-xs-12">
         <ul class="list-group">
-            <li class="list-group-item"><a href="https://github.com/winerss/vue">Vue外卖Demo</a></li>
+            <li class="list-group-item">
+                <a href="https://github.com/winerss/vue">基于Vue2.0的Demo源码</a>
+            </li>
         </ul>
+    </div>
+    <div class="col-md-9 col-xs-12">
+        <h1 class="title">基于Vue2.0的Demo</h1>
+        <div class="img-border">
+            <img src="../img/vue/seller1.png" alt="...">
+        </div>
+        <div class="img-border">
+            <img src="../img/vue/seller2.png" alt="...">
+        </div>
+        <div class="img-border">
+            <img src="../img/vue/seller3.png" alt="...">
+        </div>
     </div>
 </div>
 <script src="../js/jquery.min.js"></script>
@@ -63,6 +78,16 @@
         };
         CanvasParticle(config);
     }
+</script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".img-border img").mouseenter(function () {
+            $(this).animate({width:"260px",height:"400px"},300);
+        });
+        $(".img-border img").mouseleave(function () {
+            $(this).animate({width:"200px",height:"200px"},300);
+        });
+    });
 </script>
 </body>
 </html>

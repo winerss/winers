@@ -1,0 +1,17 @@
+.title {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 24px;
+    color: #00aced;
+}
+.img-border {
+    float: left;
+    margin-left: 20px;
+}
+.img-border img {
+    padding: 5px;
+    border: 1px solid #00aced;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
