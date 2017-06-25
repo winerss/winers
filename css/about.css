@@ -1,0 +1,11 @@
+#myModalLabel {
+    text-align: center;
+    font-size: 24px;
+    color: #00aced;
+}
+.modal-header {
+    border-bottom: none;
+}
+.item-title {
+    color: #00aced;
+}

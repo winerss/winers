@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/about.css">
 </head>
 <body>
 <nav class="navbar navbar-default">
@@ -46,10 +47,57 @@
     <div class="introduce">
         <p>Hello,everyone.my name is Liu Jialu and Winerss is my nickname.I'm from China and I was born in Anhui province.I'm an 23-year-old boy.</p>
         <p>I graduated from Chongqing University of Science and Technology in 2017 June and my majors is Internet Of Things(IOT).</p>
-        <button class="btn btn-info">Learn more</button>
+        <button class="btn btn-info" data-toggle="modal" data-target="#myModal">Learn more</button>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Web前端 刘家禄</h4>
+            </div>
+            <div class="modal-body">
+                <div class="table-responsive">
+                    <table class="table">
+                        <tr>
+                            <td class="col-md-6">姓名：刘家禄</td>
+                            <td class="col-md-6">民族：汉族</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-6">出生：1994</td>
+                            <td class="col-md-6">性别：男</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-6">学历：本科</td>
+                            <td class="col-md-6">邮箱：2857505905@qq.com</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-6">英语：CET-4</td>
+                            <td class="col-md-6">地址：上海</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-6">重庆科技学院--物联网工程</td>
+                            <td class="col-md-6">2013.9-2017.6</td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-6">本科阶段主修</td>
+                            <td class="col-md-6">C语言程序设计、数据结构（C语言版）、数据库（SQL Sever）、面向对象编程（Java版）、计算机网络、现代传感器、RFID技术与应用、操作系统原理、单片机原理与应用、嵌入式系统、嵌入式Linux应用与开发、Android开发等。</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button style="margin: 0 auto;display: block" type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
     </div>
 </div>
 <script src="../js/jquery.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
+<script type="text/javascript">
+
+</script>
 </body>
 </html>
