@@ -36,6 +36,9 @@
         border-radius: 200px;
         margin: 50px auto 0;
     }
+    .list{
+        text-align: center;
+    }
 }
 @media (min-width: 414px) and (max-width: 1170px) {
     .navbar {
@@ -87,5 +90,8 @@
     }
     .introduce .btn a {
        display: block;
+    }
+    .list{
+        text-align: center;
     }
 }
