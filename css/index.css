@@ -10,6 +10,8 @@ body {
     background: url(../img/background/bg1.jpg) no-repeat;
     background-size: cover;
     -moz-background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 #fullScreen {

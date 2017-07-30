@@ -1,0 +1,27 @@
+body{
+    background: #f2f2f2;
+}
+header{
+    height: 300px;
+    width: 100%;
+    background: #333;
+    color: #ebebeb;
+    position: relative;
+}
+header h1{
+    line-height: 200px;
+    font-size: 40px;
+}
+header .logoImg{
+    position: absolute;
+    bottom: -34px;
+    left: 1%;
+    right: 1%;
+}
+.logoImg img{
+    width: 78px;
+    vertical-align: middle;
+}
+.content{
+    margin-top: 90px;
+}

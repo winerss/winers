@@ -1,104 +1,55 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Winerss</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="../img/bitbug_favicon.ico" />
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/common.css">
-    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/case.css">
 </head>
+
 <body>
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="../index.html">Home</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">CSS</a></li>
-                <li><a href="javascript.html">JavaScript</a></li>
-                <li><a href="#">Jquery</a></li>
-                <li><a href="#">Boostrap</a></li>
-                <li><a href="vue.html">Vue</a></li>
-                <li><a href="#">About Me</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<div class="container">
-    <div class="author-title">
-        <h2 class="h2">ABOUT ME</h2>
-    </div>
-    <div class="author-img">
-        <img class="img-responsive" src="../img/author.jpg" alt="Author">
-    </div>
-    <div class="introduce">
-        <p>Hello,everyone.my name is Liu Jialu and Winerss is my nickname.I'm from China and I was born in Anhui province.I'm an 23-year-old boy.</p>
-        <p>I graduated from Chongqing University of Science and Technology in 2017 June and my majors is Internet Of Things(IOT).</p>
-        <button class="btn btn-info" data-toggle="modal" data-target="#myModal">Learn more</button>
-    </div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Web前端 刘家禄</h4>
+    <header>
+        <div class="container">
+            <h1 class="text-center">前端项目</h1>
+            <div class="logoImg">
+                <img class="img-responsive center-block" src="../img/case/case1.png" alt="">
             </div>
-            <div class="modal-body">
-                <div class="table-responsive">
-                    <table class="table">
-                        <tr>
-                            <td class="col-md-6">姓名：刘家禄</td>
-                            <td class="col-md-6">民族：汉族</td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-6">出生：1994</td>
-                            <td class="col-md-6">性别：男</td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-6">学历：本科</td>
-                            <td class="col-md-6">邮箱：2857505905@qq.com</td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-6">英语：CET-4</td>
-                            <td class="col-md-6">地址：上海</td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-6">重庆科技学院--物联网工程</td>
-                            <td class="col-md-6">2013.9-2017.6</td>
-                        </tr>
-                        <tr>
-                            <td class="col-md-6">本科阶段主修</td>
-                            <td class="col-md-6">C语言程序设计、数据结构（C语言版）、数据库（SQL Sever）、面向对象编程（Java版）、计算机网络、现代传感器、RFID技术与应用、操作系统原理、单片机原理与应用、嵌入式系统、嵌入式Linux应用与开发、Android开发等。</td>
-                        </tr>
-                    </table>
+        </div>
+    </header>
+    <div class="container content">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="../img/case/case2.png" alt="...">
+                    <div class="caption">
+                        <h3 class="text-center">衣服在线定制</h3>
+                        <p>1、衣服选择</p>
+                        <p>2、图像上传、后台接收</p>
+                        <p class="text-center"><a href="https://github.com/winerss/yourteebiz">GitHub地址</a></p>
+                    </div>
                 </div>
             </div>
-            <div class="modal-footer">
-                <button style="margin: 0 auto;display: block" type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <div class="thumbnail">
+                    <img class="img-responsive" src="../img/case/case3.png" alt="...">
+                    <div class="caption">
+                        <h3 class="text-center">点餐系统</h3>
+                        <p>1、web前端展示</p>
+                        <p>2、后台使用PHP、数据库MySQL</p>
+                        <p class="text-center"><a href="https://github.com/winerss/menu">GitHub地址</a></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<script src="../js/jquery.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script type="text/javascript">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
 
-</script>
+    </script>
 </body>
+
 </html>
