@@ -1,41 +1,44 @@
-.navbar {
-    background: #2c3e50;
-    border: none;
-    border-radius: 0;
+body {
+    margin: 0;
 }
-.navbar-default .navbar-brand {
-    color: #f4f5f6;
+#header {
+    height: 50px;
+    width: 100%;
+}
+
+#container {
+    background: url(../img/background/bg1.jpg) no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+}
+
+#fullScreen {
+    float: right;
+    margin: 5px;
+    background: url(../img/icon/layout.png) no-repeat;
+    background-position: -198px -4px;
     display: block;
-    padding: 0 15px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
 }
-.navbar-default .navbar-brand:hover {
-    color: #FFFFFF;
+
+@media (max-width: 768px) {
+    #header {
+        display: none;
+    }
 }
-.navbar-default .navbar-nav>li>a {
-    color: #f4f5f6;
+
+.thumbnail{
+    background: rgba(0, 0, 0, 0.5);
+    border:  none;
+    padding-bottom: 0;
 }
-.navbar-default .navbar-nav>li>a:hover{
-    color: #E87E04;
+.thumbnail .caption{
+    padding-bottom: 0;
 }
-.navbar-default .navbar-nav>li>a:visited {
-    color: #FFFFFF;
-}
-.author-title .h2 {
-    text-align: center;
-    position: relative;
-    font-weight: bold;
-}
-.author-title .h2::after {
-    content: "";
-    position: absolute;
-}
-.introduce p {
-    font-size: 16px;
-    line-height: 25px;
-    margin-top: 20px;
-    color: #666;
-}
-.introduce .btn {
-    margin: 10px auto;
-    display: block;
+.caption h4{
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
 }

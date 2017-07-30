@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Winerss</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../img/bitbug_favicon.ico" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        body{
+            margin: 0;
+        }
+        #header{
+            height: 50px;
+            width: 100%;
+        }
+        #container{
+            background: url(../img/background/bg1.jpg) no-repeat;
+            background-size: cover;
+            -moz-background-size: cover;
+        }
+        #fullScreen{
+            float: right;
+            margin: 5px;
+            background: url(../img/icon/layout.png) no-repeat;
+            background-position: -198px -4px;
+            display: block;
+            height: 40px;
+            width: 40px;
+            cursor: pointer;
+        }
+    
+        .list{
+            height: 30px;
+            width: 200px;
+            margin: 0 auto;
+        }
+        .list ul li{
+            float: left;
+            padding: 0;
+            border: none;
+            background: none;
+            margin: 0 8px;
+        }
+        .list ul li img{
+            width: 30px;
+            height: 30px;
+            padding: 5px;
+            border: 1px solid #fff;
+            border-radius: 50%;
+        }
+        @media (max-width: 768px){
+            #header{
+                display: none;
+            }
+           
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <span id="fullScreen"></span>
+    </div>
+    <div class="container">
+        <div class="title">
+            <p><img class="img-responsive center-block" src="../img/icon/title1.png" alt=""></p>
+        </div>
+        <div class="list">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <img src="../img/icon/icon_vue.png" alt="">
+                </li>
+                <li class="list-group-item">
+                    <img src="../img/icon/icon_vue.png" alt="">
+                </li>
+                <li class="list-group-item">
+                    <img src="../img/icon/icon_vue.png" alt="">
+                </li>
+                <li class="list-group-item">
+                    <img src="../img/icon/icon_vue.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/test.js"></script>
+</body>
+</html>
+
