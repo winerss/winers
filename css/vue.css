@@ -1,17 +1,54 @@
-.title {
+body{
+    background: #f2f2f2;
+}
+header{
+    height: 300px;
+    width: 100%;
+    background: #333;
+    color: #ebebeb;
+    position: relative;
+}
+header h1{
+    line-height: 200px;
+    font-size: 40px;
+}
+header .logoImg{
+    position: absolute;
+    bottom: -34px;
+    left: 1%;
+    right: 1%;
+}
+.logoImg img{
+    width: 78px;
+    vertical-align: middle;
+}
+.content{
+    margin: 90px auto;
+}
+@media (max-width: 678px){
+    .content{
+        margin: 50px 0;
+    }
+    .case{
+        margin-bottom: 30px;
+    }
+}
+.case{
+    margin-bottom: 60px;
+}
+.introduce{
     text-align: center;
-    padding: 10px 0;
-    font-size: 24px;
-    color: #00aced;
 }
-.img-border {
-    float: left;
-    margin-left: 20px;
+.introduce .title{
+    color: blue;
+    font-weight: bold;
 }
-.img-border img {
-    padding: 5px;
-    border: 1px solid #00aced;
-    width: 200px;
-    height: 200px;
-    cursor: pointer;
+.introduce .text{
+    text-align: left;
+    line-height: 25px;
+    font-size: 18px;
+    margin-top: 60px;
+}
+.introduce .address{
+    font-size: 16px;
 }

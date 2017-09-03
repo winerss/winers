@@ -1,93 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Winerss</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="../img/bitbug_favicon.ico" />
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/vue.css">
 </head>
 <body>
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a href="../index.html" class="navbar-brand">Home</a>
+    <header>
+        <div class="container">
+            <h1 class="text-center">VUE项目</h1>
+            <div class="logoImg">
+                <img class="img-responsive center-block" src="../img/case/case1.png" alt="">
+            </div>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">HTML</a></li>
-                <li><a href="#">CSS</a></li>
-                <li><a href="javascript.html">JavaScript</a></li>
-                <li><a href="#">Jquery</a></li>
-                <li><a href="#">Boostrap</a></li>
-                <li><a href="#">Vue</a></li>
-                <li><a href="about.html">About Me</a></li>
-            </ul>
+    </header>
+    <div class="container content">
+        <div class="row">
+            <div class="case col-xs-12 col-sm-6 col-md-6">
+                <img class="img-responsive col-xs-12 col-sm-6 col-md-6" src="../img/vue/seller1.png" alt="...">
+                <div class="introduce col-xs-12 col-sm-6 col-md-6">
+                    <h3 class="title">VUE外卖</h3>
+                    <p class="text">基于VUE2.0开发的外卖项目，技术栈：VUE2.0、vue-router路由、vue-resource、elementUI框架、css预编译stylus</p>
+                    <p class="address"><a href="https://github.com/winerss/vue">GitHub地址</a></p>
+                </div>
+            </div>
         </div>
     </div>
-</nav>
-<div class="container">
-    <div class="col-md-3 col-xs-12">
-        <ul class="list-group">
-            <li class="list-group-item">
-                <a href="https://github.com/winerss/vue">基于Vue2.0的Demo源码</a>
-            </li>
-        </ul>
-    </div>
-    <div class="col-md-9 col-xs-12">
-        <h1 class="title">基于Vue2.0的Demo</h1>
-        <div class="img-border">
-            <img src="../img/vue/seller1.png" alt="...">
-        </div>
-        <div class="img-border">
-            <img src="../img/vue/seller2.png" alt="...">
-        </div>
-        <div class="img-border">
-            <img src="../img/vue/seller3.png" alt="...">
-        </div>
-    </div>
-</div>
-<script src="../js/jquery.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script type="text/javascript" src="../js/canvas-particle.js"></script>
-<script type="text/javascript">
-    window.onload = function(){
-        var config = {
-            vx: 4,
-            vy:  4,
-            height: 2,
-            width: 2,
-            count: 100,
-            color: "0,255,0",
-            stroke: "0,255,0",
-            dist: 6000,
-            e_dist: 20000,
-            max_conn: 10
-        };
-        CanvasParticle(config);
-    }
-</script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        $(".img-border img").mouseenter(function () {
-            $(this).animate({width:"260px",height:"400px"},300);
-        });
-        $(".img-border img").mouseleave(function () {
-            $(this).animate({width:"200px",height:"200px"},300);
-        });
-    });
-</script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var imgW=$(".img").width();
+            console.log(imgW);
+        })
+    </script>
 </body>
+
 </html>
