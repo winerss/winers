@@ -32,6 +32,9 @@ header .logoImg{
     .case{
         margin-bottom: 30px;
     }
+    .introduce .text{
+        margin-top: 30px;
+    }
 }
 .case{
     margin-bottom: 60px;
